@@ -2,6 +2,7 @@
 
 /**
  * @desc 显示
+ * @version 1.0.0
  * @param {*} obj 
  */
 function show(obj) {

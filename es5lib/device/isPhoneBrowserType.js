@@ -2,6 +2,7 @@
 
 /**
  * @desc 手机浏览器类型判断
+ * @version 1.0.0
  * @param { String } type 手机类型
  * @return { Boolean } 是否为该类型
  */

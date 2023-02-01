@@ -1,5 +1,6 @@
 /**
  * 检查字符串是否为合法手机号码
+ * @version 1.0.0
  * @param { String } str 手机号码
  * @return { String } 是否是手机号码
  */

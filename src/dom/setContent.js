@@ -1,5 +1,6 @@
 /**
  * @desc 设置文本内容
+ * @version 1.0.0
  * @param {*} obj 
  * @returns 
  */

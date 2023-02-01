@@ -1,5 +1,6 @@
 /**
  * @desc 随机生成颜色
+ * @version 1.0.0
  * @return { String } 生成颜色的十六进制
  */
 function randomColor() {

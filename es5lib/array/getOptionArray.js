@@ -2,6 +2,7 @@
 
 /**
  * @desc 获取对象数组某些项
+ * @version 1.0.0
  * @param { Array } arr 数组对象
  * @param { String } keys 获得选项的关键字
  * @return { Array } 获得选项的结果

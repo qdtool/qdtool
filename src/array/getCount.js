@@ -1,5 +1,6 @@
 /**
  * @desc 获得数组/字符串出现最多的几次元素和出现次数
+ * @version 1.0.0
  * @param { Array } arr 参与统计的数组或者字符串
  * @param { Number } rank 长度，默认为数组长度
  * @param { String } rankType 排序方式，默认降序 为1，则为升序，其它传参或者不传为降序

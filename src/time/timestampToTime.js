@@ -1,5 +1,6 @@
 /**
- * 时间戳转日期
+ * @desc 时间戳转日期
+ * @version 1.0.0
  * @param { Number, String } timestamp 时间戳
  * @return { String } 转换后的日期
  */

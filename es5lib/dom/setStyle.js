@@ -2,6 +2,7 @@
 
 /**
  * @desc 设置样式
+ * @version 1.0.0
  * @param {*} obj 
  * @param {*} json 
  */

@@ -1,5 +1,6 @@
 /**
  * @desc 添加类名
+ * @version 1.0.0
  * @param {*} obj 
  * @param {*} classStr 
  */

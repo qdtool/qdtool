@@ -1,5 +1,6 @@
 /**
  * @desc 获取url参数
+ * @version 1.0.0
  * @param { String } url url地址
  * @return { Object } url参数对象
  */

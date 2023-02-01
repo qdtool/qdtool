@@ -62,6 +62,9 @@ var getEndTime = require('./time/getEndTime');
 
 // devide 设备操作
 var getOS = require('./device/getOS');
+var isPhoneBrowserType = require('./device/isPhoneBrowserType');
+var getExplore = require('./device/getExplore');
+var isWeixin = require('./device/isWeixin');
 
 // reg 常用正则
 var isQQ = require('./reg/isQQ');
@@ -70,7 +73,6 @@ var isPhone = require('./reg/isPhone');
 // other 其他操作
 var version = require('./other/version');
 var isDataType = require('./other/isDataType');
-var isPhoneBrowserType = require('./other/isPhoneBrowserType');
 var ajax = require('./other/ajax');
 var delayFn = require('./other/delayFn');
 var debounceFn = require('./other/debounceFn');
@@ -135,6 +137,9 @@ module.exports = {
 
   // device
   getOS: getOS,
+  isPhoneBrowserType: isPhoneBrowserType,
+  getExplore: getExplore,
+  isWeixin: isWeixin,
 
   // reg
   isQQ: isQQ,
@@ -143,7 +148,6 @@ module.exports = {
   // other
   version: version,
   isDataType: isDataType,
-  isPhoneBrowserType: isPhoneBrowserType,
   ajax: ajax,
   delayFn: delayFn,
   debounceFn: debounceFn

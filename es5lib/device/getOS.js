@@ -2,6 +2,7 @@
 
 /**
  * @desc 获取操作系统类型
+ * @version 1.0.0
  * @return { String } 系统类型
  */
 function getOS() {

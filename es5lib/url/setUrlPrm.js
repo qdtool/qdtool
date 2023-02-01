@@ -2,6 +2,7 @@
 
 /**
  * @desc 设置url参数
+ * @version 1.0.0
  * @param { Object } obj 设置参数的对象
  * @return { String } 参数的字符串
  */
