@@ -5,7 +5,7 @@
  * @param { String } type 数据类型
  * @return { Boolean } 是否为传入的数据类型
  */
-function isDataType(obj, type) {
+function dataType(obj, type) {
   let _type;
   if (type) {
     _type = type.toLowerCase();
@@ -36,4 +36,4 @@ function isDataType(obj, type) {
   }
 }
 
-module.exports = isDataType;
+module.exports = dataType;

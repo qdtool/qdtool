@@ -1,16 +1,11 @@
 /**
  * @desc 设置文本内容
- * @version 1.0.0
- * @param {*} obj 
- * @returns 
+ * @version 1.1.0
+ * @param { HTMLElement } ele HTML节点，要设置文本内容的对象
+ * @param { String } content 设置的文本内容
  */
-// html(document.getElementById('xxx'),'hello world')
-function setContent(obj) {
-  if (arguments.length === 1) {
-    return obj.innerHTML;
-  } else if (arguments.length === 2) {
-    obj.innerHTML = arguments[1];
-  }
+function setContent(ele, content) {
+  ele.innerHTML = content;
 }
 
 module.exports = setContent;

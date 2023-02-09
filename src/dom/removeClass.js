@@ -1,21 +1,23 @@
+const dataType = require("../data/dataType");
+const hasClass = require("../dom/hasClass");
 /**
- * @desc 删除类名
- * @version 1.0.0
- * @param {*} obj 
- * @param {*} classStr 
+ * @desc 删除类名，删除dom对象上的一个class类名
+ * @version 1.1.0
+ * @param { HTMLElement } ele 要删除类名的html节点
+ * @param { String } classStr 要删除类名class
  */
-function removeClass(obj, classStr) {
-  if ((this.istype(obj, 'array') || this.istype(obj, 'elements')) && obj.length > 1) {
-    for (let i = 0, len = obj.length; i < len; i++) {
-      if (this.hasClass(obj[i], classStr)) {
+function removeClass(ele, classStr) {
+  if ((dataType(ele, 'array') || dataType(ele, 'elements')) && ele.length > 1) {
+    for (let i = 0, len = ele.length; i < len; i++) {
+      if (hasClass(ele[i], classStr)) {
         let reg = new RegExp('(\\s|^)' + classStr + '(\\s|$)');
-        obj[i].className = obj[i].className.replace(reg, '');
+        ele[i].className = ele[i].className.replace(reg, '');
       }
     }
   } else {
-    if (this.hasClass(obj, classStr)) {
+    if (hasClass(ele, classStr)) {
       let reg = new RegExp('(\\s|^)' + classStr + '(\\s|$)');
-      obj.className = obj.className.replace(reg, '');
+      ele.className = ele.className.replace(reg, '');
     }
   }
 }

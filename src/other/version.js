@@ -4,7 +4,7 @@
  * @return { String } 对应当前版本号
  */
 function version() {
-  return "1.0.0";
+  return require("../../package").version;
 }
 
 module.exports = version;

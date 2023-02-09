@@ -1,16 +1,16 @@
 'use strict';
 
 /**
- * @desc 显示
- * @version 1.0.0
- * @param {*} obj 
+ * @desc 显示节点
+ * @version 1.1.0
+ * @param { HTMLElement } ele 要显示的html节点
  */
-function show(obj) {
+function show(ele) {
   var blockArr = ['div', 'li', 'ul', 'ol', 'dl', 'table', 'article', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'hr', 'header', 'footer', 'details', 'summary', 'section', 'aside', ''];
-  if (blockArr.indexOf(obj.tagName.toLocaleLowerCase()) === -1) {
-    obj.style.display = 'inline';
+  if (blockArr.indexOf(ele.tagName.toLocaleLowerCase()) === -1) {
+    ele.style.display = 'inline';
   } else {
-    obj.style.display = 'block';
+    ele.style.display = 'block';
   }
 }
 

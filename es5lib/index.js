@@ -3,7 +3,7 @@
 /**
  * @desc webpack打包入口
  */
-// string 字符串操作
+// string 字符串
 var trim = require('./string/trim');
 var changeCase = require('./string/changeCase');
 var repeatStr = require('./string/repeatStr');
@@ -15,9 +15,10 @@ var randomWord = require('./string/randomWord');
 var countStr = require('./string/countStr');
 var filterStr = require('./string/filterStr');
 var formatText = require('./string/formatText');
-var digitUppercase = require('./string/digitUppercase');
+var stringToBase32 = require('./string/stringToBase32');
+var stringToBase64 = require('./string/stringToBase64');
 
-// array 数组操作
+// array 数组
 var removeRepeatArr = require('./array/removeRepeatArr');
 var upsetArr = require('./array/upsetArr');
 var maxArr = require('./array/maxArr');
@@ -34,7 +35,16 @@ var filterOptionArray = require('./array/filterOptionArray');
 var arraySort = require('./array/arraySort');
 var arrayEqual = require('./array/arrayEqual');
 
-// dom DOM操作
+// data 数据
+var numAdd = require('./data/numAdd');
+var numSub = require('./data/numSub');
+var numMulti = require('./data/numMulti');
+var numDiv = require('./data/numDiv');
+var percent = require('./data/percent');
+var fillStr = require('./data/fillStr');
+var dataType = require('./data/dataType');
+
+// dom DOM
 var hasClass = require('./dom/hasClass');
 var addClass = require('./dom/addClass');
 var removeClass = require('./dom/removeClass');
@@ -45,22 +55,33 @@ var hide = require('./dom/hide');
 var offset = require('./dom/offset');
 var getScrollTop = require('./dom/getScrollTop');
 var setScrollTop = require('./dom/setScrollTop');
+var debounce = require('./dom/debounce');
+var delay = require('./dom/delay');
+
+// amount 金额
+var digitUppercase = require('./amount/digitUppercase');
+var tranNumber = require('./amount/tranNumber');
 
 // random 随机值
 var randomColor = require('./random/randomColor');
 var randomNum = require('./random/randomNum');
 
-// url URL参数操作
+// url URL参数
 var parseQueryString = require('./url/parseQueryString');
 var setUrlPrm = require('./url/setUrlPrm');
 var getUrlPrm = require('./url/getUrlPrm');
 var getQueryString = require('./url/getQueryString');
 
-// time 时间/日期操作
+// time 时间/日期
 var timestampToTime = require('./time/timestampToTime');
 var getEndTime = require('./time/getEndTime');
+var timeZoneNameValue = require('./time/timeZoneNameValue');
+var leapYear = require('./time/leapYear');
+var dayOfTheYear = require('./time/dayOfTheYear');
+var dayOfMonth = require('./time/dayOfMonth');
+var compareTime = require('./time/compareTime');
 
-// devide 设备操作
+// devide 设备
 var getOS = require('./device/getOS');
 var isPhoneBrowserType = require('./device/isPhoneBrowserType');
 var getExplore = require('./device/getExplore');
@@ -70,12 +91,9 @@ var isWeixin = require('./device/isWeixin');
 var isQQ = require('./reg/isQQ');
 var isPhone = require('./reg/isPhone');
 
-// other 其他操作
+// other 其他
 var version = require('./other/version');
-var isDataType = require('./other/isDataType');
 var ajax = require('./other/ajax');
-var delayFn = require('./other/delayFn');
-var debounceFn = require('./other/debounceFn');
 
 module.exports = {
   // string
@@ -90,7 +108,8 @@ module.exports = {
   countStr: countStr,
   filterStr: filterStr,
   formatText: formatText,
-  digitUppercase: digitUppercase,
+  stringToBase32: stringToBase32,
+  stringToBase64: stringToBase64,
 
   // array
   removeRepeatArr: removeRepeatArr,
@@ -109,6 +128,15 @@ module.exports = {
   arraySort: arraySort,
   arrayEqual: arrayEqual,
 
+  // data
+  numAdd: numAdd,
+  numSub: numSub,
+  numMulti: numMulti,
+  numDiv: numDiv,
+  percent: percent,
+  fillStr: fillStr,
+  dataType: dataType,
+
   // dom
   hasClass: hasClass,
   addClass: addClass,
@@ -120,6 +148,12 @@ module.exports = {
   offset: offset,
   getScrollTop: getScrollTop,
   setScrollTop: setScrollTop,
+  debounce: debounce,
+  delay: delay,
+
+  // amount
+  digitUppercase: digitUppercase,
+  tranNumber: tranNumber,
 
   // random
   randomColor: randomColor,
@@ -134,6 +168,11 @@ module.exports = {
   // time
   timestampToTime: timestampToTime,
   getEndTime: getEndTime,
+  timeZoneNameValue: timeZoneNameValue,
+  leapYear: leapYear,
+  dayOfTheYear: dayOfTheYear,
+  dayOfMonth: dayOfMonth,
+  compareTime: compareTime,
 
   // device
   getOS: getOS,
@@ -147,8 +186,6 @@ module.exports = {
 
   // other
   version: version,
-  isDataType: isDataType,
-  ajax: ajax,
-  delayFn: delayFn,
-  debounceFn: debounceFn
+  ajax: ajax
+
 };
