@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * @desc temp
+ * @description temp
  * @return { String } 
  */
 function temp() {

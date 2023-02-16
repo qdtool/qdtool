@@ -1,5 +1,5 @@
 /**
- * @desc 获得版本号
+ * @description 获得版本号
  * @version 1.0.0
  * @return { String } 对应当前版本号
  */

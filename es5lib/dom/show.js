@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * @desc 显示节点
+ * @description 显示节点
  * @version 1.1.0
  * @param { HTMLElement } ele 要显示的html节点
  */

@@ -1,5 +1,5 @@
 /**
- * @desc 是否闰年
+ * @description 是否闰年
  * @version 1.1.0
  * @param { Number } year 年份
  * @return { Boolean } 是否闰年

@@ -1,5 +1,5 @@
 /**
- * @desc 获取某个月的天数
+ * @description 获取某个月的天数
  * @version 1.1.0
  * @param { Number } year 年
  * @param { Number } month 月

@@ -1,5 +1,5 @@
 /**
- * @desc 获得时区名和值
+ * @description 获得时区名和值
  * @version 1.1.0
  * @param { Object } dateObj 时间对象
  * @return { Object } 时区名和值的对象

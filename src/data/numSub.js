@@ -1,5 +1,5 @@
 /**
- * @desc 减法精确计算，避免数据相减小数点后产生多位数和计算精度损失
+ * @description 减法精确计算，避免数据相减小数点后产生多位数和计算精度损失
  * @version 1.1.0
  * @param { Number } num1 被减数
  * @param { Number } num2 减数2

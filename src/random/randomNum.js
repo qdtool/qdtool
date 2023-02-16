@@ -1,5 +1,5 @@
 /**
- * @desc 生成指定范围随机数
+ * @description 生成指定范围随机数
  * @version 1.0.0
  * @param { Number } min 范围最小值
  * @param { Number } max 范围最大值

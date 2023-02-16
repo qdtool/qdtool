@@ -1,5 +1,5 @@
 /**
- * @desc 数组求和
+ * @description 数组求和
  * @version 1.0.0
  * @param { Array } arr 要求和的数组，数组中每一项必须是数字Number类型
  * @return { Number } 求和的结果

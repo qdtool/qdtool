@@ -1,5 +1,5 @@
 /**
- * @desc 获取滚动条距顶部的距离
+ * @description 获取滚动条距顶部的距离
  * @version 1.0.0
  * @return { Number } 滚动条距离顶部距离
  */

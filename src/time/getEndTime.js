@@ -1,5 +1,5 @@
 /**
- * @desc 到某一个时间的倒计时
+ * @description 到某一个时间的倒计时
  * @version 1.0.0
  * @param { String } endTime 结束时间
  * @return { String } 倒计时

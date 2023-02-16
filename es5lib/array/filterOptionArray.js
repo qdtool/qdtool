@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * @desc 排除对象数组某些项
+ * @description 排除对象数组某些项
  * @version 1.0.0
  * @param { Array } arr 对象数组
  * @param { String } keys 排除的关键字

@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * @desc url参数转对象
+ * @description url参数转对象
  * @version 1.0.0
  * @param { String } url url地址
  * @return { Object } 转换后的对象

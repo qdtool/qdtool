@@ -1,5 +1,5 @@
 /**
- * @desc 数据类型判断
+ * @description 数据类型判断
  * @version 1.0.0
  * @param { Object } obj 要判断的数据对象
  * @param { String } type 数据类型

@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * @desc 隐藏节点
+ * @description 隐藏节点
  * @version 1.1.0
  * @param { HTMLElement } ele 要隐藏的html节点
  */

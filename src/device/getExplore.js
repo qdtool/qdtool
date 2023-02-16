@@ -1,6 +1,6 @@
 /**
- * @desc 获取浏览器类型和版本，只能在浏览器中使用
- * @version v1.0.2
+ * @description 获取浏览器类型和版本，只能在浏览器中使用
+ * @version 1.0.2
  * @return { String } 浏览器类型和版本
  */
 function getExplore() {

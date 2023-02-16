@@ -1,5 +1,5 @@
 /**
- * @desc 时间戳转日期
+ * @description 时间戳转日期
  * @version 1.1.0
  * @param { Number, String } timestamp 时间戳
  * @param { String } fmt 转换后的日期格式，如："yyyyMMdd"、"yyyy/MM/dd"、"yyyy-MM-dd hh:mm:ss"、"yyyy年MM月dd日"、"yyyy-MM-dd"等等

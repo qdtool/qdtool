@@ -1,5 +1,5 @@
 /**
- * @desc temp
+ * @description temp
  * @return { String } 
  */
 function temp() {

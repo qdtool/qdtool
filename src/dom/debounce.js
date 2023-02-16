@@ -1,5 +1,5 @@
 /**
- * @desc 函数防抖;常用于提交按钮快速点击多次的问题
+ * @description 函数防抖;常用于提交按钮快速点击多次的问题
  * @version 1.1.0
  * @param { Function } fn 点击按钮要执行的函数
  * @param { Number } delay 延迟时间，单位：毫秒

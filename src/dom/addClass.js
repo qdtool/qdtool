@@ -1,7 +1,7 @@
 const dataType = require("../data/dataType");
 const hasClass = require("../dom/hasClass");
 /**
- * @desc 添加类名，向一个dom对象上添加class类名
+ * @description 添加类名，向一个dom对象上添加class类名
  * @version 1.1.0
  * @param { HTMLElement } ele HTML节点，要添加类名的对象
  * @param { String } classStr 添加的class，多个用空格隔开

@@ -1,5 +1,5 @@
 /**
- * @desc 检查字符串是否为合法QQ号码
+ * @description 检查字符串是否为合法QQ号码
  * @version 1.0.0
  * @param { String } str QQ号码
  * @return { Boolean } 是不是QQ号码

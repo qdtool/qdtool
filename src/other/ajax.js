@@ -1,5 +1,5 @@
 /**
- * @desc ajax函数；这只是一个简单的ajax请求函数，实际生产建议使用其它更专业的库；比如axios等等。
+ * @description ajax函数；这只是一个简单的ajax请求函数，实际生产建议使用其它更专业的库；比如axios等等。
  * @version 1.0.0
  * @param { Object } json 参数及其它数据对象  url 地址  method 请求方式get/post   dataType 返回什么数据类型string/json/xml   data 请求时候的传的数据（它是一个对象）   succ 成功后的回调函数   fail 失败后的回调函数
  * @return { Object } 返回结果对象

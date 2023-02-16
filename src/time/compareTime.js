@@ -1,5 +1,5 @@
 /**
- * @desc 比较两个时间大小
+ * @description 比较两个时间大小
  * @version 1.1.0
  * @param { String } time1 时间1
  * @param { String } time2 时间2

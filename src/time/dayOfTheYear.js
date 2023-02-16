@@ -1,6 +1,6 @@
 const leapYear = require("./leapYear");
 /**
- * @desc 获得一个日期是当年的第几天
+ * @description 获得一个日期是当年的第几天
  * @version 1.0.0
  * @param { String } date 日期
  * @return { Number } 当年的第几天

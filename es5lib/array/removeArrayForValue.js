@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * @desc 筛选数组
+ * @description 筛选数组
  * @version 1.0.0
  * @param { Array } arr 参与筛选的数组
  * @param { String, Number, Object, Array } val 参与筛选的元素

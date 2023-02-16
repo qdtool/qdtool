@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * @desc 金额转大写
+ * @description 金额转大写
  * @version 1.0.0
  * @param { Number } price 金额
  * @return { String } 转换后的大写金额

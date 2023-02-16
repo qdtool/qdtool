@@ -1,6 +1,6 @@
 {
   "name": "qdtool",
-  "version": "1.1.0",
+  "version": "2.0.1",
   "description": "前端工具包",
   "main": "min/qdtool.min.js",
   "scripts": {

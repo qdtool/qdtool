@@ -1,6 +1,6 @@
  const base64 = require("./base64");
  /**
-  * @desc 字符串转base32位的编码格式
+  * @description 字符串转base32位的编码格式
   * @version 1.1.0
   * @param { String } str 要转换的字符串
   * @return { String } 转换后的base32编码

@@ -1,7 +1,7 @@
 const dataType = require("../data/dataType");
 const hasClass = require("../dom/hasClass");
 /**
- * @desc 删除类名，删除dom对象上的一个class类名
+ * @description 删除类名，删除dom对象上的一个class类名
  * @version 1.1.0
  * @param { HTMLElement } ele 要删除类名的html节点
  * @param { String } classStr 要删除类名class
